@@ -1,0 +1,697 @@
+/* App.css */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+/* App.css */
+body {
+  background-color: #f8f9fa; /* Default light mode background */
+  color: #333; /* Default text color */
+}
+
+.dark-mode {
+  background-color: #333; /* Dark mode background */
+  color: #fff; /* Dark mode text color */
+}
+
+.dark-mode .navbar {
+  background-color: #222; /* Dark mode navbar background */
+}
+
+.dark-mode .footer {
+  background-color: #222; /* Dark mode footer background */
+}
+
+.dark-mode .card {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .card-body {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .card-title {
+  color: #fff;
+}
+
+.dark-mode .card-text {
+  color: #fff;
+}
+
+.dark-mode .btn {
+  background-color: #222;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode .btn:hover {
+  background-color: #fff;
+  color: #222;
+  border-color: #222;
+}
+
+.dark-mode .text-center {
+  color: #fff;
+}
+
+.dark-mode .text-white {
+  color: #fff;
+}
+
+.dark-mode .text-grey {
+  color: #fff;
+}
+
+.dark-mode .text-dark {
+  color: #fff;
+}
+
+.dark-mode .form-control {
+  background-color: #222;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode .form-control:focus {
+  background-color: #222;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode .form-label {
+  color: #fff;
+}
+
+.dark-mode .table {
+  color: #fff;
+}
+
+.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+  background-color: #222;
+}
+
+.dark-mode .table-striped tbody tr:nth-of-type(even) {
+  background-color: #333;
+}
+
+.dark-mode .table-bordered {
+  border-color: #fff;
+}
+
+.dark-mode .table-bordered th,
+.dark-mode .table-bordered td {
+  border-color: #fff;
+}
+
+.dark-mode .table-hover tbody tr:hover {
+  background-color: #444;
+}
+
+.dark-mode .list-group-item {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .list-group-item:hover {
+  background-color: #444;
+}
+
+.dark-mode .list-group-item.active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .pagination .page-link {
+  background-color: #222;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode .pagination .page-link:hover {
+  background-color: #444;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode .pagination .page-item.active .page-link {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .modal-content {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .modal-header {
+  border-bottom-color: #fff;
+}
+
+.dark-mode .modal-footer {
+  border-top-color: #fff;
+}
+
+.dark-mode .modal-title {
+  color: #fff;
+}
+
+.dark-mode .modal-body {
+  color: #fff;
+}
+
+.dark-mode .modal-footer .btn {
+  background-color: #222;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode .modal-footer .btn:hover {
+  background-color: #fff;
+  color: #222;
+  border-color: #222;
+}
+
+.dark-mode .navbar-brand {
+  color: #fff;
+}
+
+.dark-mode .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.dark-mode .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.dark-mode .navbar-toggler {
+  border-color: #fff;
+}
+
+.dark-mode .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dark-mode .form-select {
+  background-color: #222;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode .form-select:focus {
+  background-color: #222;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode .form-select option {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .form-select option:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark-mode .form-select option:checked {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark-mode .form-check-input {
+  background-color: #222;
+  border-color: #fff;
+}
+
+.dark-mode .form-check-input:checked {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-label {
+  color: #fff;
+}
+
+.dark-mode .form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked[type=checkbox] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.dark-mode .form-check-input:checked[type=radio] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+.dark-mode .form-check-input:disabled {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-label:disabled {
+  color: #444;
+}
+
+.dark-mode .form-check-input:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:active:disabled {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:active:disabled:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:active:disabled:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:active:active {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:active:active:hover {
+  background-color: #444;
+  border-color: #444;
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:active:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:disabled:active:disabled:active:active:active:active:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.dark-mode .form-check-input:checked:disabled:active:disabled:active:active:active:active:active:active:hover:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+.dark-mode #uhome{
+  background-color: #333;
+  color: #fff;
+  background-image: none;
+}
+.dark-mode #hh{
+  background-color: #222;
+}
+.dark-mode #bt{
+  background-color: #222;
+  color: #fff;
+  border-color: #fff;
+}
+.dark-mode #bt:hover{
+  background-color: #fff;
+  color: #222;
+  border-color: #222;
+}
